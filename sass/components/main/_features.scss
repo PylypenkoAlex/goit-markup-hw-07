@@ -1,0 +1,40 @@
+.features.list {
+  display: flex;
+}
+
+.features .item {
+  width: 270px;
+}
+
+.features .wrap {
+  display: flex;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background-color: $secondary-background-color;
+}
+
+.features .item + .item {
+  margin-left: 30px;
+}
+
+.container.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.features .title {
+  color: $primary-text-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.features .text {
+  color: $secondary-text-color;
+  font-size: 14px;
+  line-height: 1.7;
+}

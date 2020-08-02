@@ -1,0 +1,40 @@
+.join-in .content {
+  display: inline-block;
+  margin-bottom: 20px;
+
+  color: $background-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.join-in {
+  margin-right: 94px;
+}
+
+.social.list {
+  display: flex;
+}
+
+.social .link {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: $background-color;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
+
+.social .item + .item {
+  margin-left: 10px;
+}

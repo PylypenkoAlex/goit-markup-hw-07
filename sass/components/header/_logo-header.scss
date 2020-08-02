@@ -1,0 +1,19 @@
+.navi {
+  display: flex;
+  align-items: center;
+}
+
+.logo-primary {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+
+  .logo-web {
+    color: $accent-color;
+  }
+
+  .logo-studio {
+    color: $primary-text-color;
+  }
+}
